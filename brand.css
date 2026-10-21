@@ -1,0 +1,5 @@
+/* The supplied MDW logo, tinted to the site's cyan without redrawing it. */
+[data-framer-name="MDW mark"],.mark{position:relative!important;width:66px!important;min-width:66px!important;height:44px!important;flex-shrink:0!important;background-color:#111720!important;border-radius:6px!important}
+[data-framer-name="MDW mark"]>div{visibility:hidden!important}
+[data-framer-name="MDW mark"]::after,.mark::after{content:"";position:absolute;inset:5px;background:url("./images/mdw-logo-blue.svg") center/contain no-repeat;pointer-events:none}
+.mark{font-size:0!important}
